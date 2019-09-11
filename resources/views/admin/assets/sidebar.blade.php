@@ -25,14 +25,44 @@
                 data-accordion="false">
 
 
-                {{--Manage Roles and Permission--}}
 
 
-                <li class="nav-item">
+                <li class="nav-item " >
                     <a href="" class="nav-link">
-                        <i class="nav-icon fa fa-lock"></i>
+                        <i class="nav-icon fa  fa-university"></i>
                         <p>
-                            Manage Role
+                            Manage Department
+                        </p>
+                    </a>
+                </li>
+
+
+
+                <li class="nav-item mt-2">
+                    <a href="" class="nav-link">
+                        <i class="nav-icon fa fa-book"></i>
+                        <p>
+                            Manage Course
+                        </p>
+                    </a>
+                </li>
+
+
+                <i class="fas "></i>
+                <li class="nav-item mt-2">
+                    <a href="" class="nav-link">
+                        <i class="nav-icon fa fa-address-card"></i>
+                        <p>
+                            Manage Teachers
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item mt-2">
+                    <a href="" class="nav-link">
+                        <i class="nav-icon fa fa-users"></i>
+                        <p>
+                            Manage Students
                         </p>
                     </a>
                 </li>
@@ -41,14 +71,15 @@
 
 
                 {{--LogOut--}}
-                <li class="nav-item">
-                    <a class="dropdown-item" href="{{ route('logout') }}"
+
+                <li class="nav-item mt-2">
+
+                    <a class="nav-link" href="{{ route('logout') }}"
                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
 
-                        <i class="nav-icon fa fa-sign-out"></i>
+                        <i class="nav-icon fa fa-power-off "></i>
                         {{ __('Logout') }}
-
                     </a>
 
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
