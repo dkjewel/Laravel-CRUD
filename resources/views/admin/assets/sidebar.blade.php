@@ -28,7 +28,7 @@
 
 
                 <li class="nav-item " >
-                    <a href="" class="nav-link">
+                    <a href="{{route('department.index')}}" class="nav-link">
                         <i class="nav-icon fa  fa-university"></i>
                         <p>
                             Manage Department
