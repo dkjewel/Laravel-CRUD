@@ -10,7 +10,7 @@
     <div class="card card-info mt-5" style="height: auto; width: 1000px; margin-left: 60px">
 
         <div class="card-header row">
-            <h1 class="card-title text-center col-9" style="margin-left: 100px">Manage Department</h1>
+            <h1 class="card-title text-center col-9" style="margin-left: 90px">Manage Department</h1>
 
             <a class="btn btn-success" href="{{route('department.create')}}" style="margin-top:-5px">Add Department</a>
         </div>

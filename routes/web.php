@@ -13,6 +13,8 @@ Route::resource('department', 'DepartmentController');
 
 Route::resource('course', 'CourseController');
 
+Route::resource('student', 'StudentController');
+
 
 
 

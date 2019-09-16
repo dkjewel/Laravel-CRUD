@@ -48,18 +48,9 @@
                 </li>
 
 
-                <i class="fas "></i>
-                <li class="nav-item mt-2">
-                    <a href="" class="nav-link">
-                        <i class="nav-icon fa fa-address-card"></i>
-                        <p>
-                            Manage Teachers
-                        </p>
-                    </a>
-                </li>
 
                 <li class="nav-item mt-2">
-                    <a href="" class="nav-link">
+                    <a href="{{route('student.index')}}" class="nav-link">
                         <i class="nav-icon fa fa-users"></i>
                         <p>
                             Manage Students
